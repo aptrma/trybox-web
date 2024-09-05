@@ -12,48 +12,40 @@
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="/assets/css/styles.css" />
-
-    <title>TRYBOX - #BOXTERS</title>
+    
+    <title>FIREBOWLS - #BOXTERS</title>
 </head>
-<body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
     <nav class="nav container">
         <a href="#" class="nav__logo">
             <span>
-                <img src="/images/Screenshot_2024-08-26_193848-removebg-preview.png" class="img-logo"/>
+                <img src="/images/firebowl.png" class="img-logo"/>
             </span>
-            TRYBOX
+            FireBowl's
         </a>
 
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
             <li class="nav__item">
-                <a href="#" class="nav__link">
-                <i class="ri-arrow-right-up-line"></i>
-                <span>Home</span>
-                </a>
-            </li>
-
-            <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#tentang-kita" class="nav__link">
                 <i class="ri-arrow-right-up-line"></i>
                 <span>About Us</span>
                 </a>
             </li>
 
             <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#menu-kita" class="nav__link">
                 <i class="ri-arrow-right-up-line"></i>
-                <span>Projects</span>
+                <span>Our Menu</span>
                 </a>
             </li>
 
             <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#menu-kita" class="nav__link">
                 <i class="ri-arrow-right-up-line"></i>
-                <span>Studio</span>
-            </a>
+                <span>Our Location</span>
+                </a>
             </li>
 
             <li class="nav__item">
@@ -61,7 +53,7 @@
                 <i class="ri-arrow-right-up-line"></i>
                 <span>Contact</span>
             </a>
-        </li>
+            </li>
     </ul>
 
         <!-- Close button -->
@@ -97,11 +89,60 @@
     </header>
 
     <!--==================== MAIN ====================-->
+    <body>
     <main>
     <!-- Insert page sections -->
+    <section class="introduction-section" id="tentang-kita">
+    <div class="image-container">
+        <img src="/images/Screenshot_2024-08-26_193848-removebg-preview.png" alt="Food Image" class="intro-image">
+    </div>
+    <div class="text-container">
+        <h2 class="intro-heading">Halo firebowl-ers!,</h2>
+        <p class="intro-text">
+            Kami ingin memperkenalkan FIREBOWL'S, sebuah konsep Rice Bowl yang menjual Nasi serta lauk pauknya dengan rasa yang gurih dan pedas.
+        </p>
+        <p class="intro-text">
+            Bahan-bahan kami dikembangkan dan dibuat untuk selalu mengutamakan inovasi. Dua kali lipat ukurannya, dua kali lipat kesenangannya.
+        </p>
+        <p class="intro-text">
+            One bowl will never be enough!
+        </p>
+    </div>
+</section>
+
+<section class="choose-section" id="menu-kita">
+    <h2 class="section-title">MAKE YOUR CHOICE</h2>
+    <p class="section-subtitle">
+        Selamat datang di Firebowl's, di sini kami hanya menggunakan bahan-bahan TERBAIK.<br>
+        Ayam Suwir dan Cumi Balado yang bikin nagih. Setiap suapan, pasti pengen lagi!
+    </p>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="/images/Screenshot 2024-08-26 193848.png" alt="Suwir" class="product-image">
+            <h3 class="product-name">Ayam Suwir</h3>
+        </div>
+        <div class="product-card">
+            <img src="/images/Screenshot 2024-08-26 193848.png" alt="Cumi" class="product-image">
+            <h3 class="product-name">Cumi Sambalado</h3>
+        </div>
+    </div>
+</section>  
+
+<section class="location-section">
+    <h2 class="loc-title">FIND FIREBOWL'S NEAR YOU!</h2>
+    <div class="location-group">
+        <h2><u>TANGERANG</u></h2>
+        <ul>
+          <li>KEC. CIBODAS</li>
+          <li>SMPN 20 KOTA TANGERANG</li>
+          <li>SMK NUSANTARA 1</li>
+        </ul>
+      </div>
+</section>
     </main>
 
     <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/scrolls.js"></script>
     <script src="/assets/js/scripts.js"></script>
 </body>
 </html>
