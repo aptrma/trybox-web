@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --header-height: 3.5rem;
@@ -123,7 +125,7 @@ a {
 .introduction-section::after {
   content: "";
   position: absolute;
-  bottom: 10px; /* Posisi garis di bagian bawah section */
+  bottom: 16px; /* Posisi garis di bagian bawah section */
   left: 0;
   width: 100%;
   height: 6px; /* Ketebalan garis */
@@ -166,12 +168,12 @@ a {
 .intro-text {
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-family: var(--body-font);
+  font-family: "Montserrat", sans-serif;
 }
 
 .choose-section {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   background-color: #fdf3e3; /* Sesuaikan dengan warna latar belakang */
   position: relative;
 }
@@ -193,6 +195,7 @@ a {
   color: #333;
   margin-bottom: 1rem;
   position: relative;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section-title::after {
@@ -209,6 +212,7 @@ a {
   font-weight: 400;
   color: #777;
   margin-bottom: 3rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .product-container {
@@ -279,6 +283,8 @@ a {
   font-size: 2em;
   margin-bottom: 20px;
   color: #f9db30;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .location-group ul {
@@ -286,18 +292,114 @@ a {
   padding: 0;
   font-size: 1.2em;
   color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 .location-group ul li {
   margin: 10px 0;
   padding-left: 20px;
   position: relative;
+  color: white;
+}
+
+.location-group a {
+  color: white;
 }
 
 .location-section .location-group h2 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
+
+.follow-section {
+  background-color: #fdf3e3; /* Warna latar belakang gelap */
+  color: #b40000; /* Warna teks kuning */
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  position: relative;
+}
+
+.follow-section::after {
+  content: "";
+  position: absolute;
+  bottom: 15px; /* Posisi garis di bagian bawah section */
+  left: 0;
+  width: 100%;
+  height: 6px; /* Ketebalan garis */
+  background-color: #f3a72c; /* Warna garis */
+  transform: translateY(1rem); /* Geser garis sedikit ke bawah */
+}
+
+.follow-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.follow-section hr.yellow-line {
+  width: 80px;
+  border: 0;
+  border-top: 2px solid #b40000; /* Garis kuning tipis di bawah judul */
+  margin: 0 auto 20px;
+}
+
+.follow-section p {
+  font-size: 1.2em;
+  color: #f3a72c;
+}
+
+.follow-section .instagram-handle {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #f3a72c; /* Warna kuning untuk handle Instagram */
+  margin-bottom: 20px;
+}
+
+body{
+  margin:0;
+  overflow-x:hidden;
+  }
+  
+  .footer{
+  background:#b40000;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:rgb(255, 182, 24);
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
 
 /* navigation for mobile device */
 @media screen and (max-width: 1150px) {
@@ -354,6 +456,27 @@ a {
 .location-group ul li {
   font-size: 1em;
 }
+
+.follow-section h2 {
+  font-size: 2em;
+}
+
+.follow-section p, .instagram-handle {
+  font-size: 1em;
+}
+
+.footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
 
   .nav__item {
     transform: translateX(-150px);
