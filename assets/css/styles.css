@@ -176,7 +176,7 @@ a {
   display: block;
   margin-top: 90px; /* Space between text and button */
   padding: 10px 20px;
-  border: 2px solid rgb(241, 0, 0);
+  border: 2px solid #b40000;
   border-radius: 5px;
   color: #b40000;
   text-decoration: none;
@@ -191,7 +191,6 @@ a {
 
 
 .introduction-section {
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,7 +272,6 @@ a {
   color: #333;
   margin-bottom: 1rem;
   position: relative;
-  font-family: "Montserrat", sans-serif;
 }
 
 .section-title::after {
@@ -312,7 +310,7 @@ a {
 }
 
 .product-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-20px);
 }
 
 .product-image {
@@ -329,6 +327,11 @@ a {
   margin: 0;
 }
 
+.product-name a {
+  text-decoration: none;
+  color: black;
+}
+
 .location-section {
   text-align: center;
   padding: 4rem 2rem;
@@ -339,7 +342,7 @@ a {
   font-size: 2rem;
   font-weight: 500;
   color: #ffffff;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
   position: relative;
 }
 
@@ -434,19 +437,19 @@ a {
   margin-bottom: 20px;
 }
 
-body{
-  margin:0;
-  overflow-x:hidden;
-  }
-  
-  .footer{
+.instagram-handle a{
+  color: #f3a72c;
+  text-decoration: none;
+}
+
+.footer{
   background:#b40000;
   padding:30px 0px;
   font-family: 'Play', sans-serif;
   text-align:center;
   }
   
-  .footer .row{
+.footer .row{
   width:100%;
   margin:1% 0%;
   padding:0.6% 0%;
@@ -454,26 +457,26 @@ body{
   font-size:0.8em;
   }
   
-  .footer .row a{
+.footer .row a{
   text-decoration:none;
   color:rgb(255, 255, 255);
   transition:0.5s;
   }
   
-  .footer .row a:hover{
+.footer .row a:hover{
   color:#fff;
   }
   
-  .footer .row ul{
+.footer .row ul{
   width:100%;
   }
   
-  .footer .row ul li{
+.footer .row ul li{
   display:inline-block;
   margin:0px 30px;
   }
   
-  .footer .row a i{
+.footer .row a i{
   font-size:2em;
   margin:0% 1%;
   }
@@ -637,6 +640,11 @@ body{
   .follow-section p,
   .instagram-handle {
     font-size: 1em;
+  }
+
+  .instagram-handle a {
+    color: #f3a72c;
+    text-decoration: none;
   }
 
   /* Footer diperbaiki agar lebih rapi */
