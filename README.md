@@ -1,4 +1,4 @@
 # Firebowls Websites
 Project Sekolah
 # License
-Distributed under the MIT License. 
+Licensed under [MIT License, Copyright (c) 2024 Raditya](./LICENSE)
