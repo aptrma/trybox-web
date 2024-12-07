@@ -6,24 +6,22 @@
     <meta name="keywords" content="Ricebowl, Cumi, Ayam Suwir, Firebowl's">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== REMIXICONS ===============-->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
     />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
     
     <title>Firebowl's Ricebowl</title>
-    <link rel="icon" type="image/x-icon" href="/images/20240919_171719.png">
+    <link rel="icon"  type="x-icon" href="images/20240919_171719.png">
 </head>
-    <!--==================== HEADER ====================-->
+
     <header class="header" id="header">
     <nav class="nav container">
         <a href="#" class="nav__logo">
             <span>
-                <img src="/images/firebowl.png" class="img-logo"/>
+                <img src="images/firebowl.png" class="img-logo"/>
             </span>
             FireBowl's
         </a>
@@ -99,7 +97,6 @@
     </nav>
     </header>
 
-    <!--==================== MAIN ====================-->
     <body>
     <main>
     <!-- Insert page sections -->
@@ -115,7 +112,7 @@
 
 <section class="introduction-section" id="tentang-kita">
     <div class="image-container">
-        <img src="/images/Screenshot_2024-08-26_193848-removebg-preview.png" alt="Food Image" class="intro-image">
+        <img src="images/Screenshot_2024-08-26_193848-removebg-preview.png" alt="Food Image" class="intro-image">
     </div>
     <div class="text-container">
         <h2 class="intro-heading">Halo! firebowl-ers!,</h2>
@@ -139,12 +136,12 @@
     </p>
     <div class="product-container">
         <div class="product-card">
-            <a href="https://wa.me/6289654029627?text=Halo%2C%20saya%20ingin%20memesan%3A%0ANama%3A%20[Nama]%0ATanggal%3A%20[Tanggal]%0ATempat%20Pengiriman%3A%20[Alamat]%0AMenu%3A%20Ayam%20Suwir%0APorsi%3A%20[Porsi]."><img src="/images/ayamsuwir.jpg" alt="Suwir" class="product-image"></a>
-            <h3 class="product-name"><a href="https://wa.me/6289654029627?text=Halo%2C%20saya%20ingin%20memesan%3A%0ANama%3A%20[Nama]%0ATanggal%3A%20[Tanggal]%0ATempat%20Pengiriman%3A%20[Alamat]%0AMenu%3A%20Ayam%20Suwir%0APorsi%3A%20[Porsi].">Ayam Suwir <br> <b>Rp13.000</b></a></h3>
+            <a href="form_pembelian.php"><img src="images/ayamsuwir.jpg" alt="Suwir" class="product-image"></a>
+            <h3 class="product-name"><a href="form_pembelian.php">Ayam Suwir <br> <b>Rp13.000</b></a></h3>
         </div>
         <div class="product-card">
-            <a href="https://wa.me/6289654029627?text=Halo%2C%20saya%20ingin%20memesan%3A%0ANama%3A%20[Nama]%0ATanggal%3A%20[Tanggal]%0ATempat%20Pengiriman%3A%20[Alamat]%0AMenu%3A%20Cumi%20Sambalado%0APorsi%3A%20[Porsi]."><img src="/images/cumisambalado.jpg" alt="Cumi" class="product-image"></a>
-            <h3 class="product-name"><a href="https://wa.me/6289654029627?text=Halo%2C%20saya%20ingin%20memesan%3A%0ANama%3A%20[Nama]%0ATanggal%3A%20[Tanggal]%0ATempat%20Pengiriman%3A%20[Alamat]%0AMenu%3A%20Cumi%20Sambalado%0APorsi%3A%20[Porsi].">Cumi Sambalado <b>Rp15.000</b></a></h3>
+            <a href="form_pembelian.php"><img src="images/cumisambalado.jpg" alt="Cumi" class="product-image"></a>
+            <h3 class="product-name"><a href="form_pembelian.php">Cumi Sambalado <b>Rp15.000</b></a></h3>
         </div>
     </div>
 </section>  
@@ -183,9 +180,8 @@
     </footer>
     </main>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="/assets/js/scrolls.js"></script>
-    <script src="/assets/js/scripts.js"></script>
+    <script src="assets/js/scrolls.js"></script>
+    <script src="assets/js/scripts.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
